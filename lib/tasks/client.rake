@@ -9,7 +9,7 @@ namespace :gemserver do
   end
 
   def gem_client
-    GemUploader::GeminaboxClient.new
+    Ggclient::GeminaboxClient.new
   end
 
   def query_remote_specs
@@ -72,7 +72,7 @@ namespace :gemserver do
       installed_gem = if source.respond_to?(:cached_gem, true)
                       source.send(:cached_gem, spec)
                     else
-                      GemUploader::GithubGemBuilder.new(spec).generated_gem
+                      Ggclient::GithubGemBuilder.new(spec).generated_gem
                     end
 
       client.push(installed_gem)
