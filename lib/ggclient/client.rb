@@ -2,7 +2,7 @@ require 'uri'
 require 'httpclient'
 require 'net/http/persistent'
 
-module GemUploader
+module Ggclient
   class Client
     attr_reader :url, :http_client
 

@@ -1,4 +1,4 @@
-module GemUploader
+module Ggclient
   class GithubGemBuilder
     def initialize(gem_installer)
       @gem_installer = gem_installer
