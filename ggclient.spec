@@ -7,9 +7,8 @@ Gem::Specification.new do |s|
   s.version     = '0.1.1'
   s.authors     = ["Subba Rao Pasupuleti"]
   s.email       = ["subbarao.pasupuleti@gxs.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of GxsGeminaboxClient."
-  s.description = "TODO: Description of GxsGeminaboxClient."
+  s.summary     = "Summary of GxsGeminaboxClient."
+  s.description = "Description of GxsGeminaboxClient."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
