@@ -1,6 +1,6 @@
 require 'bundler'
-require_relative '../gem_uploader/github_gem_builder'
-require_relative '../gem_uploader/client'
+require_relative '../ggclient/github_gem_builder'
+require_relative '../ggclient/client'
 
 namespace :gemserver do
   def ask message
