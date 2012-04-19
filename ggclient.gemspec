@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = "Summary of GxsGeminaboxClient."
   s.description = "Description of GxsGeminaboxClient."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "bundler",             '~> 1.1.3'
