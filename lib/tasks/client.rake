@@ -9,7 +9,7 @@ namespace :gemserver do
   end
 
   def gem_client
-    Ggclient::GeminaboxClient.new
+    Ggclient::Client.new
   end
 
   def query_remote_specs
