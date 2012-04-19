@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "bundler",             '~> 1.1.3'
+  s.add_dependency "bundler",             '~> 1.1'
   s.add_dependency "httpclient",          '~> 2.2.4'
   s.add_dependency 'net-http-persistent', '~> 2.6'
 end
